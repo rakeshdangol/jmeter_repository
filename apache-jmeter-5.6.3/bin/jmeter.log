@@ -1,0 +1,41 @@
+2024-05-22 10:58:17,561 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-05-22 10:58:17,577 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-05-22 10:58:17,580 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: Version 5.6.3
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: java.version=1.8.0_411
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: os.name=Windows 11
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: os.arch=amd64
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: os.version=10.0
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: java.awt.headless=null
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-05-22 10:58:17,591 INFO o.a.j.JMeter: Available Processors =16
+2024-05-22 10:58:17,600 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-05-22 10:58:17,600 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-05-22 10:58:17,600 INFO o.a.j.JMeter: JMeterHome=C:\Users\thinkpad\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2024-05-22 10:58:17,600 INFO o.a.j.JMeter: user.dir  =C:\Users\thinkpad\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-05-22 10:58:17,601 INFO o.a.j.JMeter: PWD       =C:\Users\thinkpad\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-05-22 10:58:22,554 INFO o.a.j.JMeter: IP: 10.35.34.194 Name: Rakesh-Dangol-esewa-eng FullName: Rakesh-Dangol-esewa-eng
+2024-05-22 10:58:22,583 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-05-22 10:58:22,841 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-05-22 11:26:33,727 INFO o.a.j.s.FileServer: Default base='C:\Users\thinkpad\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2024-05-22 11:26:33,731 INFO o.a.j.g.a.Load: Loading file: C:\Users\thinkpad\Downloads\Login.jmx
+2024-05-22 11:26:33,731 INFO o.a.j.s.FileServer: Set new base='C:\Users\thinkpad\Downloads'
+2024-05-22 11:26:33,909 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-05-22 11:26:33,948 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-05-22 11:26:33,950 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-05-22 11:26:33,955 INFO o.a.j.s.SaveService: Loading file: C:\Users\thinkpad\Downloads\Login.jmx
+2024-05-22 11:26:34,046 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-22 11:26:34,046 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-22 11:26:34,046 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-22 11:26:34,046 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-05-22 11:26:34,046 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-05-22 11:26:34,046 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-05-22 11:26:34,098 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: true Prefix: COOKIE_
+2024-05-22 11:26:34,128 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-05-22 11:26:34,128 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-05-22 11:26:34,128 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-05-22 11:26:34,128 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-05-22 11:26:34,551 INFO o.a.j.s.FileServer: Set new base='C:\Users\thinkpad\Downloads'
