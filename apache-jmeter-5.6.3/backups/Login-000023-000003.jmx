@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Login">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="First">
       <boolProp name="TestPlan.serialize_threadgroups">true</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
     </TestPlan>
     <hashTree>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
@@ -100,7 +101,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Login">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Login" enabled="true">
         <intProp name="ThreadGroup.num_threads">1</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -174,7 +175,7 @@ ${__setProperty(xsrf, ${COOKIE_XSRF-TOKEN})};</stringProp>
         </HeaderManager>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="NT TopUp">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="NT TopUp" enabled="true">
         <intProp name="ThreadGroup.num_threads">1</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -185,7 +186,7 @@ ${__setProperty(xsrf, ${COOKIE_XSRF-TOKEN})};</stringProp>
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Make Payment">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Make Payment" enabled="true">
           <stringProp name="HTTPSampler.domain">${Host}</stringProp>
           <stringProp name="HTTPSampler.port">${Port}</stringProp>
           <stringProp name="HTTPSampler.path">${MakePayment}</stringProp>
@@ -212,7 +213,7 @@ ${__setProperty(xsrf, ${COOKIE_XSRF-TOKEN})};</stringProp>
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager">
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">X-XSRF-TOKEN-ES</stringProp>
@@ -229,7 +230,7 @@ ${__setProperty(xsrf, ${COOKIE_XSRF-TOKEN})};</stringProp>
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager">
+        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
           <collectionProp name="CookieManager.cookies">
             <elementProp name="ES-BID-TOKEN" elementType="Cookie" testname="ES-BID-TOKEN">
               <stringProp name="Cookie.value">${ES-BID-TOKEN}</stringProp>
@@ -255,7 +256,7 @@ ${__setProperty(xsrf, ${COOKIE_XSRF-TOKEN})};</stringProp>
         </CookieManager>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Cable car">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Cable car" enabled="true">
         <intProp name="ThreadGroup.num_threads">1</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -328,7 +329,7 @@ ${__setProperty(xsrf, ${COOKIE_XSRF-TOKEN})};</stringProp>
             <elementProp name="authesewa" elementType="Cookie" testname="authesewa">
               <stringProp name="Cookie.value">${__property(authesewa)}</stringProp>
               <stringProp name="Cookie.domain">10.13.194.23</stringProp>
-              <stringProp name="Cookie.path">/</stringProp>
+              <stringProp name="Cookie.path"></stringProp>
               <boolProp name="Cookie.secure">false</boolProp>
               <longProp name="Cookie.expires">0</longProp>
               <boolProp name="Cookie.path_specified">true</boolProp>
@@ -337,7 +338,7 @@ ${__setProperty(xsrf, ${COOKIE_XSRF-TOKEN})};</stringProp>
             <elementProp name="ES-BID-TOKEN" elementType="Cookie" testname="ES-BID-TOKEN">
               <stringProp name="Cookie.value">${ES-BID-TOKEN}</stringProp>
               <stringProp name="Cookie.domain">10.13.194.23</stringProp>
-              <stringProp name="Cookie.path">/</stringProp>
+              <stringProp name="Cookie.path"></stringProp>
               <boolProp name="Cookie.secure">false</boolProp>
               <longProp name="Cookie.expires">0</longProp>
               <boolProp name="Cookie.path_specified">true</boolProp>
